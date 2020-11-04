@@ -1,0 +1,34 @@
+
+.createTask {
+  color: rgb(37, 37, 37);
+}
+.createTask__title {
+  display: inline-block;
+}
+
+.createTask__button {
+  color: var(--pink);
+  border-radius: 2em;
+  font-size: 1.6em;
+  font-weight: bold;
+  padding: 0;
+  cursor: pointer;
+}
+
+.createTask__button::after {
+  content: 'Nueva tarea';
+  position: absolute;
+  display: inline-block;
+  color: var(--pink);
+}
+
+
+.createTask__arrow {
+  margin-right: .3em;
+  font-weight: 700;
+}
+
+
+
+
+

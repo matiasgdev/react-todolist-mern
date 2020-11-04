@@ -1,0 +1,80 @@
+.profile {
+  padding: 0 .5em;
+}
+
+.profile__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--blue);
+}
+
+.profile__header h3 {
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.profile__tasks {
+  position: relative;
+}
+
+.profile__tasks--title {
+  position: relative;
+  width: max-content;
+  min-width: 50px;
+  padding: 1em;
+  z-index: 10;
+  color: white;
+  background-color: #ffa2a2;
+  border-radius: 2em;
+}
+
+.profile__tasks--add {
+  color: gray;
+  position: absolute;
+  display: inline-block;
+  width: max-content;
+  height: min-content;
+  top: .5em;
+  right: .5em;
+  font-size: 1.3em;
+}
+
+.profile__tasks--add svg {
+  cursor: pointer;
+  transition: color 200ms ease-in;
+}
+
+.profile__tasks--add svg:hover {
+  color: black;
+}
+
+.profile__tasksList {
+  color: gray;
+  position: relative;
+  bottom: 3em;
+  padding: 2em 0 1em 0;
+  background-color: white;
+  box-shadow: 0 0 1em rgba(56, 56, 56, 0.1);
+}
+
+
+.profile__logOut {
+  text-align: right;
+}
+.profile__logOut--button {
+  padding: .5em 1em;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  font-size: .7em;
+  color: var(--blue);
+}
+
+.profile__logOut--button:hover {
+  text-decoration: underline;
+}
